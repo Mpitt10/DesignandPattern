@@ -1,3 +1,5 @@
+import javax.swing.JFrame;
+
 public class App {
 
     public static void main(String[] args) {
@@ -6,5 +8,6 @@ public class App {
         win.init();
 
         win.setVisible(b:true);
+        win.pack();
     }
 }
